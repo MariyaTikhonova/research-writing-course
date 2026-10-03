@@ -14,7 +14,20 @@ An elective course on how to turn your coursework or thesis into a paper for a t
 
 ## Who is this course for
 
-Students who know ML and general AI concepts and want to do research and present at international conferences. It is a great fit if you already have a course project, thesis, or other work you would like to turn into a research paper.
+The course is designed for students who are already familiar with the core concepts of machine learning and artificial intelligence and plan to pursue research and present their work at scientific conferences.
+
+If you are currently working on a course project or a thesis and are considering turning it into a research paper, this course is for you: we will guide you through the process from the first idea to a submission-ready draft.
+
+### Target audience
+
+- **Primary:** final-year students — 4th-year Bachelor's and 2nd-year Master's students in Artificial Intelligence, Computational Linguistics, and Computer Science, i.e., those working on their graduation thesis.
+- **Also suitable:** 1st-year Master's students in the same fields.
+- **Others are welcome** if they are already actively doing research and are ready to write a paper.
+
+### Prerequisites
+
+- Familiarity with machine learning and core AI concepts.
+- A research project in progress (coursework, thesis, or other) is highly recommended but not required.
 
 ## What you get
 
