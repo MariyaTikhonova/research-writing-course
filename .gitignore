@@ -1,6 +1,40 @@
+# OS
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# Office lock / temp files
 ~$*
+*.tmp
+
+# Editable slide sources (only PDFs are published)
+*.pptx
+*.key
+
+# LaTeX build artifacts (HW3/HW4 templates)
 *.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
 *.log
 *.out
+*.toc
 *.synctex.gz
+*.synctex(busy)
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# Editors
+.vscode/
+.idea/
+
+# Private: student submissions, grades, feedback raw data — never publish
+private/
+submissions/
+grades/
+*.xlsx
+*.csv
