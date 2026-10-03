@@ -27,7 +27,9 @@ If you are currently working on a course project or a thesis and are considering
 ### Prerequisites
 
 - Familiarity with machine learning and core AI concepts.
-- A research project in progress: a course project, a thesis, or other research work that you plan to turn into a paper. All homework assignments are built around your own project.
+- *Desirable:* a research project in progress (a course project, a thesis, or other research work) that you would like to turn into a paper.
+
+> **Don't worry if you don't have a research project yet. We do not expect you to come with finished work — on the contrary, the course is meant to help you do it.** If you have no project of your own, there are alternative options (a coursework from previous years, a university research seminar or group project, your own GitHub repository, a Kaggle competition, an interesting technical blog post, etc.). See [HW1](homeworks/hw1_topic_novelty_venue/HW1.md) for details.
 
 ## What you get
 
