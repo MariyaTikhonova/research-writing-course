@@ -8,7 +8,7 @@
 
 ### 1. Выберите статью-образец
 
-Нужна статья **по теме, близкой к вашей** (по теме ДЗ-1), принятая на ведущую конференцию **в 2025–2026 годах**. Более старые статьи не принимаются: требования к оформлению и обязательным разделам меняются каждый год.
+Нужна статья **по теме, близкой к вашей** (по теме ДЗ-1), принятая на ведущую конференцию **в 2025–2026 годах**. Более ранние статьи не принимаются: требования к оформлению и обязательным разделам меняются каждый год.
 
 Где искать:
 
@@ -22,13 +22,15 @@
 
 ### 2. Составьте карту структуры
 
-Перечислите разделы основного текста. Для каждого укажите примерный объём и одной фразой его функцию. Отдельно укажите, что вынесено в Appendix и какого он объёма.
+Перечислите разделы основного текста. Для каждого укажите примерный объём в страницах и одной фразой его функцию. Отдельной строкой в конце таблицы укажите **Appendix**: его примерный объём и перечень материалов, которые туда вынесены.
 
-*Пример (одна строка):* `3 Overview of MERA Multi — ~4 pp. — describes the benchmark itself: taxonomy, metrics, scoring, leakage protection.`
+*Пример:* ` 3 | Overview of MERA Multi | ~4 pp. | describes the benchmark itself: taxonomy, metrics, scoring, leakage protection.`
+
+*Пример Appendix:* `Appendix A–F | ~34 pp. | Dataset cards, extended taxonomy, leakage detection method, prompts, and baseline configs.`
 
 ### 3. Выпишите Introduction по блокам
 
-Выпишите начало каждого абзаца Introduction (первое предложение или его начало) и сопоставьте его с блоком схемы из лекции:
+Выпишите номер абзаца, начало первого предложения абзаца в кавычках и сопоставьте его с блоком схемы из лекции:
 
 - **Problem**: постановка задачи и её актуальность;
 - **Gap**: существующие подходы и их недостатки;
@@ -38,7 +40,7 @@
 
 Если какого-то блока нет или два блока слиты в один абзац, отметьте это.
 
-*Пример:* `¶2 "Existing Russian-specific benchmarks, including TAPE ... focus exclusively on text-based tasks..." → Gap + "In this paper" (merged: the gap and the proposal share one paragraph).`
+*Пример:* `Para 2 | "Existing Russian-specific benchmarks, including TAPE ... focus exclusively on text-based tasks..." | Gap + "In this paper" (merged: the gap and the proposal share one paragraph).`
 
 ### 4. Проследите каждый пункт contribution
 
@@ -47,9 +49,9 @@
 - **где о нём говорится в статье**: раздел, таблица, рисунок, приложение;
 - **отзеркален ли он в Conclusion**: да или нет.
 
-Затем проверьте обратное направление: есть ли в Conclusion утверждения, которых нет среди contributions.
+Затем проверьте обратное направление (Reverse check) и напишите 1–2 предложениями: есть ли в Conclusion утверждения, которых нет среди contributions.
 
-*Пример:* `(iii) baseline results → §4, §5, Table 6, App. F → Conclusion: NO, not mentioned.`
+*Пример:* `(iii) baseline results | §4, §5, Table 6, App. F | Conclusion: NO, not mentioned.`
 
 ### 5. Сравните требования конференции со статьёй
 
@@ -62,40 +64,53 @@
 
 Затем проверьте, как статья выполняет каждое требование.
 
-*Пример:* `EACL 2026 CfP: "Limitations" section is mandatory, otherwise desk reject; not counted toward the page limit → Paper: ✓ Limitations section with 2 paragraphs (task coverage; HW/SW reproducibility).`
+*Пример:* `EACL 2026 CfP: "Limitations" section is mandatory, otherwise desk reject; not counted toward the page limit | Paper: ✓ Limitations section with 2 paragraphs (task coverage; HW/SW reproducibility).`
 
 ### 6. AI usage
 
 В 1–2 предложениях опишите, какими AI-инструментами вы пользовались при выполнении задания и как именно они помогли (или почему не пользовались). Если пользовались, проверьте, что номера разделов и цитаты в ответе совпадают со статьёй.
 
-## Формат сдачи
+## Формат сдачи и критерии оценивания
 
-PDF, **1-2 страницы A4**. Ответ на английском. Пункты 2–5 удобнее всего оформить компактными таблицами.
+* **Формат файла:** PDF, строго **1–2 страницы A4** (сдача через систему проверки).
+* **Язык ответа:** Английский (English). Пункты 2–5 оформляются компактными таблицами.
+* **Дедлайн:** 13.10.26 г. 23:59. 
 
-Структура:
+Ваш отчёт должен состоять из 6 разделов, которые оцениваются по следующим критериям:
 
-1. статья-образец и почему она выбрана;
-2. карта структуры;
-3. Introduction по блокам;
-4. трассировка contributions;
-5. требования конференции и статья;
-6. AI usage.
+**1. Paper Selection [0–1 балл]**
+* **1 балл:** статья строго 2025–2026 гг., принята на ведущую конференцию, релевантна вашей теме, приведено внятное обоснование выбора.
+* **0 баллов:** статья старше 2025 г., препринт без подтверждения публикации, статья не с ведущей конференции либо обоснование отсутствует.
 
-Сдача через систему проверки.
+**2. Structure Map [0–2 балла]**
+* **2 балла:** полная таблица всех разделов статьи с объёмами в страницах и их функциями. Appendix вынесен отдельной строкой (указан его объём и что конкретно в него вынесено).
+* **1 балл:** пропущен 1–2 раздела, не указан объём страниц либо забыт Appendix.
+* **0 баллов:** разделы статьи не выписаны или пересказаны одной абстрактной фразой.
 
-**Дедлайн:** неделя с даты выдачи.
+**3. Introduction by Blocks [0–2 балла]**
+* **2 балла:** поабзацный разбор с реальными цитатами начал предложений (не пересказ). Смысловые блоки (*Problem, Gap, In this paper, Contributions, Figure 1*) определены корректно.
+* **1 балл:** пропущены абзацы, вместо цитат дан пересказ либо допущены ошибки в определении блоков.
+* **0 баллов:** абзацы не сопоставлены со схемой.
 
-## На что смотрим при проверке
+**4. Contribution Alignment [0–2 балла]**
+* **2 балла:** все заявленные пункты вклада привязаны к разделам/таблицам статьи. Проверен Conclusion (`Yes`/`No`). Выполнен Reverse check (найдены расхождения или явно зафиксировано их отсутствие).
+* **1 балл:** привязка поверхностная (нет ссылок на конкретные разделы/таблицы) либо забыт Reverse check.
+* **0 баллов:** сопоставление вклада отсутствует.
 
-- статья 2025–2026 года, с ведущей конференции и по теме, близкой к вашей;
-- в разборе Introduction приведены реальные абзацы, а не пересказ;
-- для каждого пункта contribution указано место в статье и есть ли он в Conclusion;
-- требования конференции взяты из CfP нужного года и честно сопоставлены со статьёй;
-- указано, как использовался AI.
+**5. Conference Requirements [0–2 балла]**
+* **2 балла:** требования взяты из официального CfP конференции нужного года (лимиты, обязательные разделы, чек-листы) и честно сопоставлены со статьёй.
+* **1 балл:** требования выписаны в общих чертах, не привязаны к конкретному году конференции либо пропущены ключевые пункты (лимиты, чек-листы).
+* **0 баллов:** требования CfP не проанализированы.
+
+**6. AI Usage & Formatting [0–1 балл]**
+* **1 балл:** соблюдён объём (1–2 стр. PDF), язык строго английский, честно описано использование AI (или его отсутствие).
+* **0 баллов:** нет раздела про AI, превышен лимит объёма (>2 стр.) или отчёт сдан на русском языке.
+
+**ИТОГО: 10 баллов**
 
 ---
 
-## Пример выполнения (сокращённый)
+## Пример выполнения
 
 **Paper:** *Multimodal Evaluation of Russian-language Architectures* (MERA Multi), EACL 2026, Main, Long Papers. https://aclanthology.org/2026.eacl-long.94/
 *Why:* a benchmark paper for Russian; this is a good model for students whose main contribution is a dataset or benchmark.
@@ -117,22 +132,22 @@ PDF, **1-2 страницы A4**. Ответ на английском. Пунк
 
 **Introduction by blocks**
 
-| ¶ | Opening | Block |
-|---|---|---|
-| ¶1 | "Recent breakthroughs in generative AI..." | Problem: progress requires multimodal benchmarks; existing ones ignore Russian |
-| ¶2 | "Existing Russian-specific benchmarks... focus exclusively on text-based tasks" | Gap + "In this paper" merged |
-| list | "More specifically, our contributions are fourfold:" | Contributions (4 bullets) |
-| ¶3 | "Additionally, we provide a standardized codebase..." | Release: code, platform, license |
-| Fig. 1 | Overview of MERA Multi | Figure 1 / teaser |
+| Paragraph | Opening | Block |
+|:---:|---|---|
+| **Para 1** | *"Recent breakthroughs in generative AI..."* | **Problem:** Multimodal progress requires evaluation, but existing benchmarks ignore Russian. |
+| **Para 2** | *"Existing Russian-specific benchmarks... focus exclusively on text-based tasks..."* | **Gap + "In this paper"** (merged: notes text-only limitations and introduces MERA Multi). |
+| **Para 3** | *"More specifically, our contributions are fourfold:"* | **Contributions** (explicit list of 4 key contributions). |
+| **Para 4** | *"Additionally, we provide a standardized codebase..."* | **Release Statement:** Open codebase, platform, and license. |
+| **Fig. 1** | *Caption: "Overview of MERA Multi framework..."* | **Figure 1 / Teaser:** Conceptual diagram on page 1–2. |
 
-**Contribution tracing**
+**Contribution Alignment**
 
 | Contribution | Where in the paper | In Conclusion? |
 |---|---|---|
-| (i) taxonomy & methodology | §3.2–3.3, Table 3, App. B | ✓ |
-| (ii) 18 novel datasets | §3.1, Table 2, App. A | ✓ |
-| (iii) baseline results | §4–5, Table 6, App. F | ✗ |
-| (iv) leakage analysis & watermarking | §3.4, Tables 4–5, App. C | ✗ |
+| (i) taxonomy & methodology | §3.2–3.3, Table 3, App. B | Yes |
+| (ii) 18 novel datasets | §3.1, Table 2, App. A | Yes |
+| (iii) baseline results | §4–5, Table 6, App. F | No |
+| (iv) leakage analysis & watermarking | §3.4, Tables 4–5, App. C | No |
 
 *Reverse check:* the Conclusion highlights the codebase and the submission platform, but they are not in the contribution list (only in the "Additionally" paragraph). Contributions (iii) and (iv) are not mirrored in the Conclusion. This is exactly what is worth fixing in your own paper.
 
