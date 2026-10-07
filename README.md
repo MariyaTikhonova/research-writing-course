@@ -1,6 +1,8 @@
 # Research Basics: From Coursework to Conference Paper
 
-*Основы исследовательской работы* · course tagline: **Start in Research**
+*Основы исследовательской работы* 
+
+**Start in Research**
 
 An elective course on how to turn your coursework or thesis into a paper for a top ML/NLP conference. We discuss how to find scientific novelty, choose a conference and a track, write the paper in Overleaf, go through peer review and rebuttal, and where AI tools help (and where they do not).
 
@@ -71,7 +73,7 @@ Deadline for each homework: one week after it is assigned.
 ## Grading
 
 - **Pass/fail** (no grade).
-- To pass: submit **at least 80% of the homework** and **present at least once** during a session.
+- To pass: submit **at least 75% of the homework**.
 - Presentations earn **bonus points**.
 
 ## Repository structure
