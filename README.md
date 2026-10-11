@@ -47,7 +47,7 @@ If you are currently working on a course project or a thesis and are considering
 | 0 | Course overview | [PDF](lectures/00_course_overview.pdf) | — |
 | 1 | **Introduction to paper writing:** scientific novelty, choosing a conference and a track, stages of work on a paper | [PDF](lectures/01_intro_to_paper_writing.pdf) | [HW1. Topic, novelty, and venue](homeworks/hw1_topic_novelty_venue/HW1.md) |
 | 2 | **Writing process and Overleaf:** paper structure, differences between tracks, live examples, getting started with Overleaf | [PDF](lectures/02_writing_process_overleaf.pdf) | [HW2. Paper anatomy](homeworks/hw2_paper_anatomy/HW2.md) |
-| 3 | **Journal vs. conference:** how journal papers differ, advanced Overleaf features | coming soon | HW3. Your paper draft in the conference template: Introduction and structure |
+| 3 | **Journal vs. conference:** how journal papers differ, advanced Overleaf features | [PDF](lectures/03_journal_vs_conference.pdf) | HW3. Your paper draft in the conference template: Introduction and structure |
 | 4 | **Peer review and rebuttal:** how reviewing works, how to write a rebuttal, how it is organized at ARR | coming soon | — |
 | 5 | **AI tools for paper writing:** what is allowed and what is not, how it differs from coursework | coming soon | HW4. Literature review and LaTeX bibliography with the help of LLMs |
 | 6 | **Presenting your work at a conference:** deadlines, steps, how to make a poster, examples of good posters | coming soon | HW5. Find 2–3 examples of good visual presentation |
