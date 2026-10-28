@@ -50,9 +50,9 @@ If you are currently working on a course project or a thesis and are considering
 | 1 | **Introduction to paper writing:** scientific novelty, choosing a conference and a track, stages of work on a paper | [PDF](lectures/01_intro_to_paper_writing.pdf) | [HW1. Topic, novelty, and venue](homeworks/hw1_topic_novelty_venue/HW1.md) |
 | 2 | **Writing process and Overleaf:** paper structure, differences between tracks, live examples, getting started with Overleaf | [PDF](lectures/02_writing_process_overleaf.pdf) | [HW2. Paper anatomy](homeworks/hw2_paper_anatomy/HW2.md) |
 | 3 | **Journal vs. conference:** how journal papers differ, advanced Overleaf features | [PDF](lectures/03_journal_vs_conference.pdf) | [HW3. Paper draft: Introduction and structure](homeworks/hw3_paper_draft/HW3.md) |
-| 4 | **Peer review and rebuttal:** how reviewing works, how to write a rebuttal, how it is organized at ARR | coming soon | — |
-| 5 | **AI tools for paper writing:** what is allowed and what is not, how it differs from coursework | coming soon | HW4. Literature review and LaTeX bibliography with the help of LLMs |
-| 6 | **Presenting your work at a conference:** deadlines, steps, how to make a poster, examples of good posters | coming soon | HW5. Find 2–3 examples of good visual presentation |
+| 4 | **Peer review and rebuttal:** how reviewing works, how to write a rebuttal, how it is organized at ARR | [PDF](lectures/04_peer_review_rebuttal.pdf) | — |
+| 5 | **Presenting your work at a conference:** deadlines, steps, how to make a poster, examples of good posters | coming soon | [HW4. Poster analysis](homeworks/hw4_poster_analysis/HW4.md) |
+| 6 | **AI tools for paper writing:** what is allowed and what is not, how it differs from coursework | coming soon | HW5. Literature review and LaTeX bibliography |
 | 7 | **Conference trends 2026 and Russian conferences:** submission specifics, where the field is heading, poster reviews | coming soon | — |
 | 8 | **Wrap-up and Q&A:** recap, presentation of final drafts for bonus points | coming soon | — |
 
@@ -65,10 +65,10 @@ Five small homework assignments form one end-to-end project: from choosing a top
 | [HW1](homeworks/hw1_topic_novelty_venue/HW1.md) | Describe your research topic, come up with a paper title, formulate the novelty, choose a conference and a track | 1 page PDF |
 | [HW2](homeworks/hw2_paper_anatomy/HW2.md) | Analyze the structure of a 2025–2026 paper on a topic close to yours: Introduction blocks, contribution tracing, conference requirements | 1 page PDF, in English |
 | [HW3](homeworks/hw3_paper_draft/HW3.md) | Set up your paper in the conference template (Overleaf): full section structure, Introduction with contributions and Figure 1, at least 5 references | 2–3 page PDF from Overleaf + read-only link, in English |
-| HW4 | Literature review and BibTeX bibliography with the help of LLMs | coming soon |
-| HW5 | 2–3 examples of good visual presentation (posters, figures) | coming soon |
+| [HW4](homeworks/hw4_poster_analysis/HW4.md) | Analyze 3 conference posters: main idea, pros and cons, common takeaways, and a sketch of your own poster | Up to 2 page PDF |
+| HW5 | Literature review: 5–10 related papers, a BibTeX bibliography, and a Related Work section in your paper draft | coming soon |
 
-Deadline for each homework: one week after it is assigned.
+Deadline for each homework: one week after it is assigned (HW5: two weeks).
 
 ## Grading
 
