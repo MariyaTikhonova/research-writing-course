@@ -13,6 +13,7 @@ An elective course on how to turn your coursework or thesis into a paper for a t
 - Maria Tikhonova
 - Elena Kantonistova
 - Olga Zuikova
+- Ulyana Isaeva
 
 ## Who is this course for
 
